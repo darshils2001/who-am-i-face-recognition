@@ -1,5 +1,7 @@
 # face-recognition
 
+![example 1](Users/Darshil/Documents/example1.png)
+
 ## What it is
 This program implements facial recognition by using the OpenCV library and the dlib and face_recognition packages. The program identifies faces within an input image and assigns predicted names to each face using a dataset of faces and names. 
 
@@ -17,3 +19,6 @@ If you want to add more faces to the dataset then create a sub-folder with the n
 
 ## Disclaimer
 The dataset used in this project is a condesed version of this dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html. This project is meant to be non-commerical and all dataset credits go to the linked website. 
+
+
+![example 2](Users/Darshil/Documents/example1.png)
