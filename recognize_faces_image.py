@@ -38,11 +38,12 @@ for encoding in encodings:
         counts = {}
 
         for i in matchedIdxs:
-            name = data["names"][i]
+            name = data["names"][i].replace('_', ' ')
             counts[name] = counts.get(name, 0) + 1
         
         # Determines face by choosing the name with the most votes 
         name = max(counts, key=counts.get)
+
 
     names.append(name)
 
