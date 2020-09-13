@@ -1,4 +1,4 @@
-# face-recognition
+# who-am-i-face-recognition
 
 ## What it is
 This program implements facial recognition by using the OpenCV library and the dlib and face_recognition packages. The program identifies faces within an input image and assigns predicted names to each face using a dataset of faces and names. 
