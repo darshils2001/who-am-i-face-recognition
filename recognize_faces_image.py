@@ -44,7 +44,6 @@ for encoding in encodings:
         # Determines face by choosing the name with the most votes 
         name = max(counts, key=counts.get)
 
-
     names.append(name)
 
 for ((top, right, bottom, left), name) in zip(boxes, names):
