@@ -16,4 +16,6 @@ The name is displayed for one face in the image to start with. Press any key whi
 If you want to add more faces to the dataset then create a sub-folder with the name of the individual in the dataset folder and add images of the individual to the sub-folder. Then, retrain the model by running `encode_faces.py` and add an image containing your desired face to the examples folder. Finally run `recongize_faces_impage.py` on the example image you added and enjoy the results.
 
 ## Disclaimer
+Folowed this tutorial: https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/ for setting up infrastructure of the codebase. 
+
 The dataset used in this project is a condesed version of this dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html. This project is meant to be non-commerical and all dataset credits go to the linked website. 
